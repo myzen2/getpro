@@ -1,0 +1,121 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .notice {
+    background-color: #4FCC86;
+    color: #fff;
+    style: strong;
+    font-size: 18px;
+ }
+.alert {
+  background-color: #D81900;
+  color: #fff;
+  style: strong;
+  font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+table, th, td {
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+th, td {
+  padding: 10px;
+
+}
+th {
+  font-size: 20px;
+  background-color:  #918986;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #177EE5;
+}
+h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #177EE5;
+}
+
+#arrow_down {
+  height: 10%;
+  width: 10%;
+  float: left;
+  position: relative;
+}
+
+#arrow_up {
+  height: 10%;
+  width: 10%;
+  float: right;
+  position: relative;
+}
+
+.formulaire, .input {
+  margin: auto;
+  font-size: 20px;
+  width: 50%;
+  height: 50%;
+}
+
+.image {
+  height: 100%;
+  width: 200%;
+  margin-left: -50%;
+}
+
+.field {
+    margin-left: 30%;
+    margin-bottom: 20px;
+    /*height: 200%;
+    width: 200%;*/
+}
+
+.actions {
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 2px;
+}
